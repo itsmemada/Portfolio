@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html, body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Archivo Black', sans-serif;
+}
+canvas{
+  position:fixed;
+  top:0;
+}
+.name{
+  color: white;
+  text-align: center;
+  font-size:50px;
+  padding:50px
+}
+
+.left-arrow{
+  left:50px;
+  position:absolute;
+  top:3500px;
+}
+.right-arrow{
+  right:50px;
+  position:absolute;
+  top:3500px;
+}
+.slider__content{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:80px;
+  width:900px;
+  height:600px;
+  background-size: cover;
+  border-radius:15%;
+  margin:100px auto 100px;
+  z-index: 10;
+}
+.image{
+  width:1000px;
+  height:700px;
+  
+}
+.projects, .technologies, .description, .slider {
+  margin:10%;
+  background-color: rgba(89, 89, 119, 0.5);;
+  height:800px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius:50px;
+}
+.tech{
+  margin:25px;
+  height:180px;
+  width:180px;
+  background-color: #222;
+  border-radius: 50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  height:20vh;
+  background-color:white;
+  color: black;
+  text-align: center;
+}
+.description__content{
+  font-size: 50px;
+  text-align: center;
+  margin:auto;
+  padding: 10%;
+}
+.tech__icon{
+  position: absolute;
+}
+.tech__description{
+  position: relative;
+  top:110px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  
+  .projects, .technologies, .description{
+      height: 1500px;
+  }
+  .description__content{
+      font-size: 30px;
+    }
+    .projects, .technologies, .description {
+      margin:10%;
+      height:500px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius:50px;
+  }
+  .projects{
+      height:1500px;
+  }
+  .technologies{
+      height:1800px;
+  }
+  .slider__content{
+      width:250px;
+      height:400px;
+  }
+}
+@media screen
+  and (min-width: 400px)
+  and (max-width: 1200px) {
+      .slider__content{
+          width: 700px;
+          height:700px;
+      }
+  }
