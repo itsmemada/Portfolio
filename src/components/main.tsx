@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './main.css';
+import './main.scss';
 import Description from './description';
 import Projects from './projects';
 import Technologies from './technologies';

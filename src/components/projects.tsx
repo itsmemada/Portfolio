@@ -1,5 +1,5 @@
-
 import React from "react"
+import "./projects.scss"
 import dtp from '../assets/projects/dptmini.png';
 import holi from '../assets/projects/holi.png';
 import iss from '../assets/projects/iss.png';

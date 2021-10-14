@@ -1,0 +1,30 @@
+.left-arrow{
+    left:70px;
+    position:absolute;
+    top:3700px;
+}
+.right-arrow{
+    right:70px;
+    position:absolute;
+    top:3700px;
+}
+.slider__content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:80px;
+    width:900px;
+    height:600px;
+    background-size: cover;
+    border-radius:15%;
+    margin:100px auto 100px;
+    z-index: 10;
+}
+@media screen
+  and (min-width: 400px)
+  and (max-width: 1200px) {
+      .slider__content{
+          width: 700px;
+          height:700px;
+      }
+  }

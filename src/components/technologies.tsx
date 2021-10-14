@@ -1,4 +1,5 @@
 import React from "react";
+import "./technologies.scss"
 
 function Technologies(){
     return(

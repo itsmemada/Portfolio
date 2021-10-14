@@ -1,4 +1,5 @@
 import React from 'react';
+import './description.scss'
 
 const desc =  <article className='description__content'>
 Witaj na moim portfolio, jestem początkującym web developerem,
