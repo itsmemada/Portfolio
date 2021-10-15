@@ -1,9 +1,9 @@
 import React from "react"
 import "./projects.scss"
-import dtp from '../assets/projects/dptmini.png';
-import holi from '../assets/projects/holi.png';
-import iss from '../assets/projects/iss.png';
-import rgb from '../assets/projects/koła rgb.png'
+import dtp from '../../assets/projects/dptmini.png';
+import holi from '../../assets/projects/holi.png';
+import iss from '../../assets/projects/iss.png';
+import rgb from '../../assets/projects/koła rgb.png'
 
 
 function Project(props :any){

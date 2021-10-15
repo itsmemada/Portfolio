@@ -27,15 +27,13 @@ html, body {
 }
 .projects, .technologies, .description, .slider {
   margin:10%;
-  background-color: rgba(89, 89, 119, 0.5);;
+  background-color: #2e4159;
   height:800px;
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
   border-radius:50px;
 }
-
-
 @media screen and (max-width: 480px) {
   
   .projects, .technologies, .description{
@@ -59,7 +57,7 @@ html, body {
       height:1800px;
   }
   .slider__content{
-      width:250px;
+      width:150px;
       height:400px;
   }
 }

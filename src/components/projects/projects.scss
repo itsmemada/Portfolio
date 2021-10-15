@@ -14,8 +14,7 @@
     height:270px;
     width:30%;
     border-radius:10%;
-  }
-  
+  }  
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -26,7 +25,6 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius:10%;
   }
-  
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
@@ -46,7 +44,7 @@
   }
   
   .flip-card-back {
-    background-color: #191b25;
+    background-color: #4f4d8c;
     color: white;
     transform: rotateY(180deg);
     text-align: center;
