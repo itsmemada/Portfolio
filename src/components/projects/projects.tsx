@@ -18,7 +18,7 @@ return(
     <div className="flip-card-back">
       <h1>{props.name}</h1>
       <p>{props.desc}</p>
-      <p><a href="http://www.dompodtopolami.com.pl">{props.adress}</a></p>
+      <p><a href={props.adress}>{props.adress}</a></p>
     </div>
   </div>
 </div>
@@ -33,22 +33,22 @@ function Projects(){
   img={dtp}
   name = 'Dom pod Topolami'
   desc= 'Projekt strony internetowej "Dom pod Topolami"'
-  adress = 'dompodtopolami.com.pl' />
+  adress = 'http://www.dompodtopolami.com.pl' />
 <Project 
   img={rgb}
   name = 'Koła rgb'
   desc= 'Projekt artystyczny wykonany za pomocą biblioteki p5.js'
-  adress = 'cojestmordo.github.io/rgb' />
+  adress = 'http://www.cojestmordo.github.io/rgb' />
 <Project 
   img={iss}
   name = 'ISS'
   desc= 'Projekt z wykorzystaniem api nasa'
-  adress = 'cojestmordo.github.io/iss_project' />
+  adress = 'http://www.cojestmordo.github.io/iss_project' />
 <Project 
   img={holi}
   name = 'Holistyczne'
   desc= 'Pomoc w utrzymaniu i administracja strony'
-  adress = 'holistyczne.com.pl' />
+  adress = 'http://www.holistyczne.com.pl' />
   
 </section>
     )
