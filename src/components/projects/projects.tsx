@@ -38,12 +38,12 @@ function Projects(){
   img={rgb}
   name = 'Koła rgb'
   desc= 'Projekt artystyczny wykonany za pomocą biblioteki p5.js'
-  adress = 'http://www.cojestmordo.github.io/rgb' />
+  adress = 'https://www.cojestmordo.github.io/rgb' />
 <Project 
   img={iss}
   name = 'ISS'
   desc= 'Projekt z wykorzystaniem api nasa'
-  adress = 'http://www.cojestmordo.github.io/iss_project' />
+  adress = 'https://www.cojestmordo.github.io/iss_project' />
 <Project 
   img={holi}
   name = 'Holistyczne'
