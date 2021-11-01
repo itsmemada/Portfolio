@@ -3,7 +3,7 @@ import "./projects.scss"
 import dtp from '../../assets/projects/dptmini.png';
 import holi from '../../assets/projects/holi.png';
 import iss from '../../assets/projects/iss.png';
-import rgb from '../../assets/projects/koła rgb.png'
+import CBD_shop from '../../assets/projects/CBD_shop.png'
 
 
 function Project(props :any){
@@ -18,7 +18,7 @@ return(
     <div className="flip-card-back">
       <h1>{props.name}</h1>
       <p>{props.desc}</p>
-      <p><a href={props.adress}>{props.adress}</a></p>
+      <p><a href={props.adress} target='_blank' rel="noreferrer">{props.adress}</a></p>
     </div>
   </div>
 </div>
@@ -32,17 +32,17 @@ function Projects(){
   <Project 
   img={dtp}
   name = 'Dom pod Topolami'
-  desc= 'Projekt strony internetowej "Dom pod Topolami"'
+  desc= 'Autorski projekt i wykonanie prostej strony internetowej dla agroturystyki "Dom pod Topolami"'
   adress = 'http://www.dompodtopolami.com.pl' />
 <Project 
-  img={rgb}
-  name = 'Koła rgb'
-  desc= 'Projekt artystyczny wykonany za pomocą biblioteki p5.js'
-  adress = 'https://cojestmordo.github.io/rgb' />
+  img={CBD_shop}
+  name = 'Sklep CBD'
+  desc= 'Projekt sklepu e-commerce stworzony za pomocą biblioteki React wraz z MaterialUI, wykorzystujący infrastrukturę commercejs'
+  adress = 'https://kup-se-cbd.netlify.app/' />
 <Project 
   img={iss}
   name = 'ISS'
-  desc= 'Projekt z wykorzystaniem api nasa'
+  desc= 'Projekt z wykorzystaniem api nasa, śledzący aktualne położenie ISS'
   adress = 'https://cojestmordo.github.io/iss_project' />
 <Project 
   img={holi}

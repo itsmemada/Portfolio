@@ -20,21 +20,41 @@
     margin:100px auto 100px;
     z-index: 10;
 }
+@media screen and (max-width: 480px) {
+    .slider{
+        height:600px;
+    }
+    .image{
+        position: relative;
+        bottom:100px;
+        width: 50%;
+        height:500px;
+    }
+    .left-arrow{
+        left:25px;
+        position: absolute;
+        top:5600px;
+    }
+    .right-arrow{
+        right:25px;
+        position:absolute;
+        top:5600px;
+    }
+}
 @media screen
-  and (min-width: 400px)
+  and (min-width: 480px)
   and (max-width: 1200px) {
       .slider__content{
           width: 700px;
           height:700px;
       }
       .image{
-          width: 700px;
-          height:600px;
+          width: 70%;
       }
       .left-arrow{
-        top:3400px;
+        top:6000px;
     }
     .right-arrow{
-        top:3400px;
+        top:6000px;
     }
   }

@@ -26,7 +26,7 @@ html, body {
   height:700px;
 }
 .projects, .technologies, .description, .slider {
-  margin:10%;
+  margin:15%;
   background-color: #2e4159;
   height:800px;
   display:flex;
@@ -35,29 +35,16 @@ html, body {
   border-radius:50px;
 }
 @media screen and (max-width: 480px) {
-  
   .projects, .technologies, .description{
       height: 1500px;
   }
-  .description__content{
-      font-size: 30px;
-    }
-    .projects, .technologies, .description {
-      margin:10%;
-      height:500px;
-      display:flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      border-radius:50px;
+  .projects, .technologies, .description {
+    margin:10%;
+    height:500px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius:50px;
   }
-  .projects{
-      height:1500px;
-  }
-  .technologies{
-      height:1800px;
-  }
-  .slider__content{
-      width:150px;
-      height:400px;
-  }
+
 }

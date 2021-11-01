@@ -1,6 +1,6 @@
 .tech{
-  margin:25px;
-  height:180px;
+  margin: 45px;
+    height:180px;
   width:180px;
   background-color: #222;
   border-radius: 50%;
@@ -14,4 +14,16 @@
 .tech__description{
   position: relative;
   top:110px;
+}
+@media screen and (max-width: 480px) {
+  .technologies{
+    height:2500px;
+  }
+}
+@media screen
+and (min-width: 480px)
+and (max-width: 1200px) {
+  .technologies{
+    height:2200px;
+  }
 }

@@ -1,6 +1,18 @@
 .description__content{
-    font-size: 50px;
-    text-align: center;
-    margin:auto;
-    padding: 10%;
+  font-size: 50px;
+  text-align: center;
+  margin:auto;
+  padding: 10%;
+}
+@media screen and (max-width: 480px) {
+  .description__content{
+  font-size: 30px;
+  }
+}
+@media screen
+  and (min-width: 480px)
+  and (max-width: 1200px) {
+    .description__content{
+      font-size: 40px;
+      }
   }
