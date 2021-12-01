@@ -1,8 +1,10 @@
+@import "../../utilities/variables.scss";
+
 .tech{
   margin: 45px;
     height:180px;
   width:180px;
-  background-color: #222;
+  background-color: $tech-color;
   border-radius: 50%;
   display:flex;
   align-items: center;

@@ -1,3 +1,5 @@
+@import "./utilities/variables.scss";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,10 +17,10 @@ code {
   box-sizing: border-box;
 }
 html, body {
-  color: white;
+  color: $text-color;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: $background-color;
   font-family: 'Archivo Black', sans-serif;
 }
 .image{
@@ -27,7 +29,7 @@ html, body {
 }
 .projects, .technologies, .description, .slider {
   margin:15%;
-  background-color: #2e4159;
+  background-color: $primary-color;
   height:800px;
   display:flex;
   flex-wrap: wrap;

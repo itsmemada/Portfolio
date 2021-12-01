@@ -1,8 +1,11 @@
+@import "./utilities/variables.scss";
+
+
 .App {
   text-align: center;
 }
 .name{
-  color: white;
+  color: $text-color;
   text-align: center;
   font-size:50px;
   padding-top: 50px;
@@ -14,8 +17,5 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-.App-link {
-  color: #61dafb;
+  color: $text-color;
 }
