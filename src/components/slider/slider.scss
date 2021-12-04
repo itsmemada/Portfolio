@@ -1,5 +1,9 @@
 @import "../../utilities/variables.scss";
 
+.image{
+    width:50px;
+    height:50px;
+}
 .left-arrow{
     left:70px;
     position:absolute;
@@ -22,41 +26,70 @@
     margin:100px auto 100px;
     z-index: 10;
 }
-@media screen and (max-width: 480px) {
-    .slider{
+
+
+@include xl-screen{
+    .image{
+        width:500px;
+        height:500px;
+    }
+}
+
+
+
+@include lg-screen{
+    .slider__content{
+        width: 600px;
+        height:700px;
+    }
+    .image{
+        // position: relative;
+        // bottom:100px;
+        width: 500px;
+        height:500px;
+    }
+    .left-arrow{
+        top:6000px;
+    }
+    .right-arrow{
+        top:6000px;
+    }
+}
+
+@include md-screen{
+    .slider__content{
+        width: 200px;
         height:600px;
     }
     .image{
         position: relative;
-        bottom:100px;
-        width: 50%;
+        bottom:5%;
+        width:300px;
         height:500px;
     }
     .left-arrow{
+        top:6200px;
+    }
+    .right-arrow{
+        top:6200px;
+    }
+}
+@include sm-screen {
+    .slider{
+        height:400px;
+    }
+    .image{
+        position: relative;
+        bottom:200px;
+        width:100%;
+        height:300px;
+    }
+    .left-arrow{
         left:25px;
-        position: absolute;
-        top:5600px;
+        top:5850px;
     }
     .right-arrow{
         right:25px;
-        position:absolute;
-        top:5600px;
+        top:5850px;
     }
 }
-@media screen
-  and (min-width: 480px)
-  and (max-width: 1200px) {
-      .slider__content{
-          width: 700px;
-          height:700px;
-      }
-      .image{
-          width: 70%;
-      }
-      .left-arrow{
-        top:6000px;
-    }
-    .right-arrow{
-        top:6000px;
-    }
-  }

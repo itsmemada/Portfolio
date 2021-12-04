@@ -7,15 +7,14 @@
   margin:auto;
   padding: 10%;
 }
-@media screen and (max-width: 480px) {
-  .description__content{
-  font-size: 30px;
-  }
-}
-@media screen
-  and (min-width: 480px)
-  and (max-width: 1200px) {
+
+@include md-screen {
     .description__content{
       font-size: 40px;
       }
+  }
+  @include sm-screen{
+    .description__content{
+    font-size: 30px;
+    }
   }

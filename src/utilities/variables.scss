@@ -3,3 +3,33 @@ $text-color: #fff;
 $primary-color: #2e4159;
 $secoundary-color: #4f4d8c;
 $tech-color:#222;
+$sm-phone:320px;
+$phone:480px;
+$tablet:786px;
+$laptop:1024px;
+$desktop:1280px;
+@mixin xs-screen{
+    @media only screen and (max-width:$sm-phone){
+        @content;
+    }
+}
+@mixin sm-screen{
+    @media only screen and (max-width:$phone){
+        @content;
+    }
+}
+@mixin md-screen{
+    @media only screen and (max-width:$tablet){
+        @content;
+    }
+}
+@mixin lg-screen{
+    @media only screen and (max-width:$laptop){
+        @content;
+    }
+}
+@mixin xl-screen{
+    @media only screen and (max-width:$desktop){
+        @content;
+    }
+}

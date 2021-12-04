@@ -58,25 +58,24 @@
     word-wrap: break-word;
     line-height: 25px;
   }
-  @media screen and (max-width: 480px) {
+
+@include md-screen{
+  .flip-card-back{
+    line-height: 20px;
+    padding:20px;
+  }
   .flip-card{
     width: 100%;
   }
   .projects{
     height:1500px;
   }
+}
+@include sm-screen {
+  .flip-card{
+    width: 100%;
   }
-  @media screen
-    and (min-width: 480px)
-    and (max-width: 1200px) {
-        .flip-card-back{
-          line-height: 20px;
-          padding:20px;
-        }
-        .flip-card{
-          width: 100%;
-        }
-        .projects{
-          height:1500px;
-        }
-    }
+  .projects{
+    height:1500px;
+  }
+}

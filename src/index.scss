@@ -23,10 +23,6 @@ html, body {
   background-color: $background-color;
   font-family: 'Archivo Black', sans-serif;
 }
-.image{
-  width:1000px;
-  height:700px;
-}
 .projects, .technologies, .description, .slider {
   margin:15%;
   background-color: $primary-color;
@@ -36,7 +32,7 @@ html, body {
   justify-content: center;
   border-radius:50px;
 }
-@media screen and (max-width: 480px) {
+@include sm-screen{
   .projects, .technologies, .description{
       height: 1500px;
   }
