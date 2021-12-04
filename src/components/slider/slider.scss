@@ -1,17 +1,18 @@
 @import "../../utilities/variables.scss";
+
 .image{
-    width:800px;
-    height:600px;
+    width:50px;
+    height:50px;
 }
 .left-arrow{
     left:70px;
     position:absolute;
-    top:4700px;
+    top:3700px;
 }
 .right-arrow{
     right:70px;
     position:absolute;
-    top:4700px;
+    top:3700px;
 }
 .slider__content{
     display:flex;
@@ -25,12 +26,17 @@
     margin:100px auto 100px;
     z-index: 10;
 }
+
+
 @include xl-screen{
     .image{
         width:500px;
         height:500px;
     }
 }
+
+
+
 @include lg-screen{
     .slider__content{
         width: 600px;
@@ -43,12 +49,13 @@
         height:500px;
     }
     .left-arrow{
-        top:5700px;
+        top:6000px;
     }
     .right-arrow{
-        top:5700px;
+        top:6000px;
     }
 }
+
 @include md-screen{
     .slider__content{
         width: 200px;
