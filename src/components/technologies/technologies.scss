@@ -17,9 +17,19 @@
   position: relative;
   top:110px;
 }
+@include xl-screen{
+  .technologies{
+    height:1300px;
+  }
+}
+@include lg-screen{
+  .technologies{
+    height:1500px;
+  }
+}
 @include md-screen{
   .technologies{
-    height:2200px;
+    height:2300px;
   }
 }
 @include sm-screen{

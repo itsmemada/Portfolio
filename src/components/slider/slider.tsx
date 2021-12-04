@@ -22,9 +22,10 @@ const Slider = ({ slides }) => {
 
     return(
         <section className='slider'>
-            <FaArrowAltCircleLeft className='left-arrow'  onClick={prevSlide}/>
-            <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide}  />
-
+            <div className='arrows'>
+                <FaArrowAltCircleLeft className='left-arrow'  onClick={prevSlide}/>
+                <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+            </div>
             <div className='slider__content'>
                 {SliderData.map((slide:any, index)=>{
                     return(
