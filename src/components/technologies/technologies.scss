@@ -37,3 +37,10 @@
     height:2500px;
   }
 }
+@media screen
+and (min-width: 480px)
+and (max-width: 1200px) {
+  .technologies{
+    height:2200px;
+  }
+}

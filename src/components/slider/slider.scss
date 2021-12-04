@@ -5,8 +5,8 @@
     top:50%;
 }
 .image{
-    width:800px;
-    height:600px;
+    width:50px;
+    height:50px;
 }
 .left-arrow{
     right:50%;
@@ -28,6 +28,8 @@
     margin:100px auto 100px;
     z-index: 10;
 }
+
+
 @include xl-screen{
     .image{
         width:500px;
@@ -35,6 +37,9 @@
     }
    
 }
+
+
+
 @include lg-screen{
     .slider__content{
         width: 600px;
@@ -48,6 +53,7 @@
     }
   
 }
+
 @include md-screen{
     .slider__content{
         width: 200px;
