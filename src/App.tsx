@@ -19,8 +19,11 @@ function App() {
       </section>
       </header>
       <Description />
+      <div>Projekty</div>
       <Projects />
+      <div>Technologie</div>
       <Technologies />
+      <div>Zdjęcia</div>
       <Slider slides={SliderData} />
       <Footer />
 

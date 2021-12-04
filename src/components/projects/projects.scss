@@ -1,6 +1,5 @@
 @import "../../utilities/variables.scss";
 
-
 @keyframes App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -29,8 +28,7 @@
   }
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
-  
+  }  
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -48,7 +46,6 @@
     width:100%;
     height:100%;
   }
-  
   .flip-card-back {
     font-size:15px;
     background-color: $secoundary-color;
@@ -58,7 +55,6 @@
     word-wrap: break-word;
     line-height: 25px;
   }
-
 @include md-screen{
   .flip-card-back{
     line-height: 20px;
