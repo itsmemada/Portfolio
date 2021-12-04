@@ -17,15 +17,13 @@
   position: relative;
   top:110px;
 }
-@media screen and (max-width: 480px) {
-  .technologies{
-    height:2500px;
-  }
-}
-@media screen
-and (min-width: 480px)
-and (max-width: 1200px) {
+@include md-screen{
   .technologies{
     height:2200px;
+  }
+}
+@include sm-screen{
+  .technologies{
+    height:2500px;
   }
 }
