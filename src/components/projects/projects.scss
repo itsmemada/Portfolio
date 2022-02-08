@@ -49,12 +49,22 @@
   }
   .flip-card-back {
     font-size:15px;
-    background-color: $secoundary-color;
+    background-color: $background-color;
     color: $text-color;
     transform: rotateY(180deg);
     text-align: center;
     word-wrap: break-word;
     line-height: 25px;
+  }
+  .flip-card-back a{
+  text-decoration: none;
+  color: $primary-color;
+  }
+  .flip-card-back a:visited{
+    color: $secoundary-color;
+  }
+  .flip-card-back a:hover{
+    color: $text-color;
   }
 @include md-screen{
   .flip-card-back{

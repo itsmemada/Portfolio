@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.scss';
 
 import Description from './components/description/description';
@@ -8,25 +7,22 @@ import Slider from './components/slider/slider';
 import Footer from './components/footer/footer';
 import { SliderData } from './components/slider/sliderData';
 
-
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <section className = 'name'>
-      <p>Amadeusz Sopot</p>
-      </section>
+        <section className = 'name'>
+          <h1>Amadeusz Sopot</h1>
+        </section>
       </header>
       <Description />
-      <div>Projekty</div>
+      <h2>Projekty</h2>
       <Projects />
-      <div>Technologie</div>
+      <h2>Technologie</h2>
       <Technologies />
-      <div>Zdjęcia</div>
+      <h2>Zdjęcia</h2>
       <Slider slides={SliderData} />
       <Footer />
-
     </div>
   );
 }

@@ -1,9 +1,19 @@
 @import "../../utilities/variables.scss";
 
-
 footer{
     height:20vh;
     background-color:$text-color;
     color: $background-color;
     text-align: center;
+  }
+  footer a{
+    text-decoration: none;
+  }
+  footer a:visited{
+    text-decoration: none;
+    color: $background-color;
+  }
+  footer a:hover{
+    text-decoration: none;
+    color: gray;
   }
