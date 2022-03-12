@@ -1,4 +1,3 @@
-import React from "react";
 import "./technologies.scss"
 
 function Technologies(){
@@ -9,7 +8,7 @@ function Technologies(){
       <figcaption className = "tech__description">html</figcaption>
   </article>
   <article className = "tech">
-    <figure className ="tech__icon"><i className="fab fa-css3-alt fa-4x"></i></figure>
+    <figure className ="tech__icon"><i className="fa-brands fa-sass fa-4x"></i></figure>
     <figcaption className = "tech__description">css</figcaption>
 </article>
   <article className = "tech">
@@ -25,8 +24,8 @@ function Technologies(){
   <figcaption className = "tech__description">node-js</figcaption>
 </article>
 <article className = "tech">
-  <figure className ="tech__icon"><i className="fab fa-php fa-4x"></i></figure>
-  <figcaption className = "tech__description">php</figcaption>
+  <figure className ="tech__icon"><i className="fa-solid fa-database fa-4x"></i></figure>
+  <figcaption className = "tech__description">mongodb</figcaption>
 </article>
 <article className = "tech">
   <figure className ="tech__icon"><i className="fab fa-react fa-4x"></i></figure>
@@ -35,6 +34,10 @@ function Technologies(){
 <article className = "tech">
   <figure className ="tech__icon"><i className="fas fa-terminal fa-3x"></i></figure>
   <figcaption className = "tech__description">bash</figcaption>
+</article>
+<article className = "tech">
+  <figure className ="tech__icon"><i className="fa-brands fa-python fa-4x"></i></figure>
+  <figcaption className = "tech__description">python</figcaption>
 </article>
 </section>
 
