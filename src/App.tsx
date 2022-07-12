@@ -3,9 +3,7 @@ import './App.scss';
 import Description from './components/description/description';
 import Projects from './components/projects/projects';
 import Technologies from './components/technologies/technologies';
-import Slider from './components/slider/slider';
 import Footer from './components/footer/footer';
-import { SliderData } from './components/slider/sliderData';
 
 function App() {
   return (
@@ -20,8 +18,6 @@ function App() {
       <Projects />
       <h2>Technologie</h2>
       <Technologies />
-      <h2>Zdjęcia</h2>
-      <Slider slides={SliderData} />
       <Footer />
     </div>
   );
