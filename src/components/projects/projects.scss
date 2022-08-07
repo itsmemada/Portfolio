@@ -12,7 +12,7 @@
     background-color: transparent;
     perspective: 1000px;
     margin:5% 5% 0;
-    height:270px;
+    height:250px;
     width:30%;
     border-radius:10%;
   }  
@@ -46,7 +46,7 @@
     height:100%;
   }
   .flip-card-back {
-    font-size:15px;
+    font-size:12px;
     background-color: $background-color;
     color: $text-color;
     transform: rotateY(180deg);
@@ -73,7 +73,7 @@
     width: 100%;
   }
   .projects{
-    height:1500px;
+    height:1200px;
   }
 }
 @include sm-screen {

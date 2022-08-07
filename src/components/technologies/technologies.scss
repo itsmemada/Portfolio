@@ -10,6 +10,9 @@
   align-items: center;
   justify-content: center;
 }
+.dark .tech{
+	background-color: $dark-tech-color;
+}
 .tech__icon{
   position: absolute;
 }

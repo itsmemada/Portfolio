@@ -6,7 +6,7 @@ function Footer(){
       <section className='footer__left'>
       </section>
       <section className='footer__middle'>
-        <span>2020-2021</span>
+        <span>2020-2022</span>
       </section>
       <section className='footer__right'>
         <p><a href="https://cojestmordo.github.io/Portfolio/">https://cojestmordo.github.io/Portfolio/</a></p>

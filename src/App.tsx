@@ -4,15 +4,17 @@ import Description from './components/description/description';
 import Projects from './components/projects/projects';
 import Technologies from './components/technologies/technologies';
 import Footer from './components/footer/footer';
+import DarkmodeButton from './components/darkmode-button/darkmode-button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+	<DarkmodeButton />
+	<header className="App-header">
         <section className = 'name'>
-          <h1>Amadeusz Sopot</h1>
+		<h1>Amadeusz Sopot</h1>
         </section>
-      </header>
+	</header>
       <Description />
       <h2>Projekty</h2>
       <Projects />

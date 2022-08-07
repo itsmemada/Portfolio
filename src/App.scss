@@ -9,6 +9,9 @@
   font-size:45px;
   padding-top: 50px;
 }
+.dark .name{
+	color: $dark-text-color;
+}
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -17,4 +20,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: $text-color;
+}
+.dark .App-header {
+	color:$dark-text-color;
 }
