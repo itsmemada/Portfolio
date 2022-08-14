@@ -26,10 +26,10 @@ const DarkmodeButton = () => {
 	}, [darkMode]);
 
 	return (
-	<label className="switch">
-	<input type="checkbox" value="dark mode"  onClick={() => setDarkMode(!darkMode)}></input>
-	<span className="slider round"></span>
-	</label>
+		<label className="switch">
+			<input type="checkbox" value="dark mode"  onClick={() => setDarkMode(!darkMode)}></input>
+			<span className="slider round"></span>
+		</label>
 	);
 };
 
