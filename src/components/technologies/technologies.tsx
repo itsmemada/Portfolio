@@ -9,7 +9,7 @@ function Technologies(){
   </article>
   <article className = "tech">
     <figure className ="tech__icon"><i className="fa-brands fa-sass fa-4x"></i></figure>
-    <figcaption className = "tech__description">css</figcaption>
+    <figcaption className = "tech__description">css/sass</figcaption>
 </article>
   <article className = "tech">
     <figure className ="tech__icon"><i className="fab fa-js fa-4x"></i></figure>

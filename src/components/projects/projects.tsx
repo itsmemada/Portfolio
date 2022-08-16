@@ -1,7 +1,7 @@
 import React from "react"
 import "./projects.scss"
 import dtp from '../../assets/projects/dptmini.png';
-import holi from '../../assets/projects/holi.png';
+import bike from '../../assets/projects/bike.png';
 import iss from '../../assets/projects/iss.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
 
@@ -45,10 +45,10 @@ function Projects(){
   desc= 'Projekt z wykorzystaniem api nasa, śledzący aktualne położenie ISS'
   adress = 'https://cojestmordo.github.io/iss_project' />
 <Project 
-  img={holi}
-  name = 'Holistyczne'
-  desc= 'Pomoc w utrzymaniu i administracja strony'
-  adress = 'http://www.holistyczne.com.pl' />
+  img={bike}
+  name = 'Bikesell'
+  desc= 'Projekt prostej strony internetowej wykonanej za pomocą wordpressa'
+  adress = 'http://www.bikesell.pl' />
   
 </section>
     )

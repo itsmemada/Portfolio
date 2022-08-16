@@ -12,7 +12,7 @@ function App() {
 	<DarkmodeButton />
 	<header className="App-header">
         <section className = 'name'>
-		<h1>Amadeusz Sopot</h1>
+		<h1>Witaj</h1>
         </section>
 	</header>
       <Description />
