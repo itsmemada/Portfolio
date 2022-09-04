@@ -1,7 +1,6 @@
 import React from "react";
 import "./darkmode-button.scss";
 
-
 const DarkmodeButton = () => {
 	const [darkMode, setDarkMode] = React.useState(false);
 

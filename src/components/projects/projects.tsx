@@ -2,7 +2,7 @@ import React from "react"
 import "./projects.scss"
 import dtp from '../../assets/projects/dptmini.png';
 import bike from '../../assets/projects/bike.png';
-import iss from '../../assets/projects/iss.png';
+import Ace from '../../assets/projects/Acedesign.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
 
 
@@ -40,10 +40,10 @@ function Projects(){
   desc= 'Projekt sklepu e-commerce stworzony za pomocą biblioteki React wraz z MaterialUI, wykorzystujący infrastrukturę commercejs'
   adress = 'https://kup-se-cbd.netlify.app/' />
 <Project 
-  img={iss}
-  name = 'ISS'
-  desc= 'Projekt z wykorzystaniem api nasa, śledzący aktualne położenie ISS'
-  adress = 'https://cojestmordo.github.io/iss_project' />
+  img={Ace}
+  name = 'Acedesign'
+  desc= 'Projekt mojego portfolio graficznego, z wykorzystaniem frameworka vue'
+  adress = 'https://acedesign.netlify.app' />
 <Project 
   img={bike}
   name = 'Bikesell'
