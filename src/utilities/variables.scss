@@ -5,7 +5,7 @@ $secoundary-color: #444;
 $tech-color:#111;
 
 $dark-background-color: #eee;
-$dark-text-color: #333;
+$dark-text-color: #222;
 $dark-primary-color: #5e7189;
 $dark-secoundary-color: #bbb;
 $dark-tech-color:#eee;
@@ -17,7 +17,7 @@ $laptop:1024px;
 $desktop:1280px;
 
 @mixin xs-screen{
-    @media only screen and (max-width:$sm-phone){
+    @media only screen and (max-width:$phone){
         @content;
     }
 }
