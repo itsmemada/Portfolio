@@ -4,7 +4,7 @@ Hi this is my portfolio
 
 ## Table of contents
 * [General info](#general-info)
-* [Technologies](technologies)
+* [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
