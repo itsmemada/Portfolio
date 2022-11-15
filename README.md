@@ -1,7 +1,6 @@
 # Portfolio
 
-Hi this are some files to my portfolio site made using typescript with React :)
-
+Hi this is my portfolio
 
 ## Table of contents
 * [General info](#general-info)
@@ -9,13 +8,14 @@ Hi this are some files to my portfolio site made using typescript with React :)
 * [Setup](#setup)
 
 ## General info
-To be filled
+simple website featuring some of proects that I've made
 
 ## Technologies
-also to be filled
+I used React with Typescript to make this site and Sass to style it
 
 ## Setup
-same thing
+npm install
+npm start
 
 ## btw.
 
