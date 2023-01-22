@@ -1,26 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e99e97ce.chunk.css",
-    "main.js": "/Portfolio/static/js/main.68f2f622.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.68f2f622.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.a66547c9.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.a66547c9.js.map",
-    "static/js/2.e3f0fd64.chunk.js": "/Portfolio/static/js/2.e3f0fd64.chunk.js",
-    "static/js/2.e3f0fd64.chunk.js.map": "/Portfolio/static/js/2.e3f0fd64.chunk.js.map",
-    "static/js/3.bf0327f3.chunk.js": "/Portfolio/static/js/3.bf0327f3.chunk.js",
-    "static/js/3.bf0327f3.chunk.js.map": "/Portfolio/static/js/3.bf0327f3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.4566d61d.css",
+    "main.js": "/Portfolio/static/js/main.f2d1c7d7.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/Portfolio/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/dptmini.png": "/Portfolio/static/media/dptmini.6c2a4f781a652e3d795a.png",
+    "static/media/bike.png": "/Portfolio/static/media/bike.6e1c2bacbb7aca72088b.png",
+    "static/media/CBD_shop.png": "/Portfolio/static/media/CBD_shop.0bd87c3fb0bb0dd6ce73.png",
+    "static/media/Acedesign.png": "/Portfolio/static/media/Acedesign.d95322a8628ac93b330a.png",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.e99e97ce.chunk.css.map": "/Portfolio/static/css/main.e99e97ce.chunk.css.map",
-    "static/js/2.e3f0fd64.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e3f0fd64.chunk.js.LICENSE.txt",
-    "static/media/Acedesign.d95322a8.png": "/Portfolio/static/media/Acedesign.d95322a8.png",
-    "static/media/CBD_shop.0bd87c3f.png": "/Portfolio/static/media/CBD_shop.0bd87c3f.png",
-    "static/media/bike.6e1c2bac.png": "/Portfolio/static/media/bike.6e1c2bac.png",
-    "static/media/dptmini.6c2a4f78.png": "/Portfolio/static/media/dptmini.6c2a4f78.png"
+    "main.4566d61d.css.map": "/Portfolio/static/css/main.4566d61d.css.map",
+    "main.f2d1c7d7.js.map": "/Portfolio/static/js/main.f2d1c7d7.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/Portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.a66547c9.js",
-    "static/js/2.e3f0fd64.chunk.js",
-    "static/css/main.e99e97ce.chunk.css",
-    "static/js/main.68f2f622.chunk.js"
+    "static/css/main.4566d61d.css",
+    "static/js/main.f2d1c7d7.js"
   ]
 }
