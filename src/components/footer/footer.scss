@@ -2,7 +2,7 @@
 
 footer{
     height:20vh;
-    background-color:$text-color;
+    background-color:$primary-color;
     color: $background-color;
     text-align: center;
 }
@@ -18,6 +18,6 @@ footer a:hover{
     color: gray;
 }
 .dark footer{
-	background-color:$dark-text-color;
+	background-color:$dark-primary-color;
 	color: $dark-background-color;
 }
