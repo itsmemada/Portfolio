@@ -3,17 +3,23 @@
 Hi this is my portfolio
 
 ## Table of contents
+
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
 ## General info
-simple website featuring some of proects that I've made
+
+This website features some proects that I've made,
+shows which tehnologies I'm interested in,
+lets you find some ways to connect with me.
 
 ## Technologies
-I used React with Typescript to make this site and Sass to style it
+
+I used React with Typescript to make front-end on this site and Sass to style it.
 
 ## Setup
+
 npm install
 npm start
 
