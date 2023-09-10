@@ -1,7 +1,7 @@
 import React from "react"
 import "./projects.scss"
 import dtp from '../../assets/projects/dptmini.png';
-import digital from '../../assets/projects/digital.png.png';
+import digital from '../../assets/projects/digital.png';
 import Ace from '../../assets/projects/Acedesign.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
 
