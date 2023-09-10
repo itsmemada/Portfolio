@@ -1,7 +1,7 @@
 import React from "react"
 import "./projects.scss"
 import dtp from '../../assets/projects/dptmini.png';
-import bike from '../../assets/projects/bike.png';
+import digital from '../../assets/projects/digital.png.png';
 import Ace from '../../assets/projects/Acedesign.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
 
@@ -45,10 +45,10 @@ function Projects(){
   desc= 'Projekt mojego portfolio graficznego, z wykorzystaniem frameworka vue'
   adress = 'https://acedesign.netlify.app' />
 <Project 
-  img={bike}
-  name = 'Bikesell'
-  desc= 'Projekt prostej strony internetowej wykonanej za pomocą wordpressa'
-  adress = 'http://www.bikesell.pl' />
+  img={digital}
+  name = 'Digital Organism'
+  desc= 'Projekt prostej strony internetowej wykonanej z naciskiem na minimalizm'
+  adress = 'http://www.yth404.pl' />
   
 </section>
     )
