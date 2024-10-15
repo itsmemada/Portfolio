@@ -9,7 +9,7 @@ function Footer(){
         <span>2020-2024</span>
       </section>
       <section className='footer__right'>
-        <p><a href="https://cojestmordo.github.io/Portfolio/">https://cojestmordo.github.io/Portfolio/</a></p>
+        <p><a href="https://itsmemada.github.io/Portfolio/">https://cojestmordo.github.io/Portfolio/</a></p>
       </section>
     </footer>
   )
