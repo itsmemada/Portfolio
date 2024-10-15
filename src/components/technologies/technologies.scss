@@ -2,16 +2,16 @@
 
 .tech{
   margin: 45px;
-    height:180px;
+  height:180px;
   width:180px;
   background-color: $tech-color;
   border-radius: 50%;
   display:flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .dark .tech{
-	background-color: $dark-tech-color;
+  background-color: $dark-tech-color;
 }
 .tech__icon{
   position: absolute;

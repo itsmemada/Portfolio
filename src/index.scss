@@ -45,13 +45,17 @@ html, body {
 .dark .description{
 	background-color: $dark-primary-color;
 }
+@include md-screen{
+    .technologies{
+        background-color: blue;
+  }
+}
 @include sm-screen{
   .projects, .technologies, .description{
       height: 1500px;
   }
   .projects, .technologies, .description {
     margin:10%;
-    height:500px;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
