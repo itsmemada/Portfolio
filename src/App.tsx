@@ -11,7 +11,7 @@ function App() {
     <div className="App">
 	<DarkmodeButton />
 	<header className="App-header">
-        <section className = 'name'>
+        <section className = 'greeting'>
 		<h1>Hello</h1>
   {/*  <div className="blink_me">▮</div> */}
         </section>
