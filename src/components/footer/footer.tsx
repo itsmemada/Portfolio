@@ -2,7 +2,7 @@ import "./footer.scss"
 
 function Footer(){
   return(
-    <footer>
+    <footer data-testid="footer-1">
       <section className='footer__left'>
       </section>
       <section className='footer__middle'>
