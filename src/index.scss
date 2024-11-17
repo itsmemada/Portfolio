@@ -45,11 +45,6 @@ html, body {
 .dark .description{
 	background-color: $dark-primary-color;
 }
-@include md-screen{
-    .technologies{
-        background-color: blue;
-  }
-}
 @include sm-screen{
   .projects, .technologies, .description{
       height: 1500px;

@@ -1,12 +1,12 @@
 $background-color: #111;
 $text-color: #ccc;
-$primary-color: #333333;
+$primary-color: #333;
 $secoundary-color: #444;
 $tech-color:#111;
 
 $dark-background-color: #eee;
 $dark-text-color: #222;
-$dark-primary-color: #A9A9AA;
+$dark-primary-color: #A9A9A9;
 $dark-secoundary-color: #bbb;
 $dark-tech-color:#eee;
 
@@ -17,9 +17,7 @@ $laptop:1024px;
 $desktop:1280px;
 
 @mixin xs-screen{
-    @media only screen and (max-width:$sm-phone){
-        @content;
-    }
+    @media only screen and (max-width:$sm-phone){ @content; }
 }
 @mixin sm-screen{
     @media only screen and (max-width:$phone){

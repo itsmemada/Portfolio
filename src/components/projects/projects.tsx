@@ -1,6 +1,6 @@
 import React from "react"
 import "./projects.scss"
-import dtp from '../../assets/projects/dptmini.png';
+import instytut_ludzi from '../../assets/projects/Instytut_ludzi.png';
 import digital from '../../assets/projects/digital.png';
 import Ace from '../../assets/projects/Acedesign.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
@@ -30,10 +30,10 @@ function Projects(){
 <section className='projects'>
 
   <Project 
-  img={dtp}
-  name = 'Dom pod Topolami'
-  desc= 'Autorski projekt i wykonanie prostej strony internetowej dla agroturystyki "Dom pod Topolami"'
-  adress = 'http://www.dompodtopolami.com.pl' />
+  img={instytut_ludzi}
+  name = 'Instytut ludzi'
+  desc= 'Wykonanie minimalistycznej strony internetowej typu landing page konferencji "Instytut ludzi"'
+  adress = 'http://www.instytutludzi.pl' />
 <Project 
   img={CBD_shop}
   name = 'Sklep CBD'
