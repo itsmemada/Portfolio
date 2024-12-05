@@ -1,8 +1,7 @@
 import './description.scss'
 
 const desc =  <article className='description__content'>
-Cześć, mam na imię Amadeusz i jestem początkującym programistą,
-na tej stronie znajdziesz projekty które zrealizowałem, oraz technologie z których korzystam.
+Hi. it's me mada On this website can see some projects I’ve done and skills I have.
 </article>
 
 function Description(){

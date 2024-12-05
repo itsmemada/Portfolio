@@ -17,9 +17,9 @@ function App() {
         </section>
 	</header>
       <Description />
-      <h2>Projekty</h2>
+      <h2>Projects</h2>
       <Projects />
-      <h2>Technologie</h2>
+      <h2>Technologies</h2>
       <Technologies />
       <Footer />
     </div>

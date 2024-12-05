@@ -32,22 +32,22 @@ function Projects(){
   <Project 
   img={instytut_ludzi}
   name = 'Instytut ludzi'
-  desc= 'Wykonanie minimalistycznej strony internetowej typu landing page konferencji "Instytut ludzi"'
+  desc= 'Minimal landing page for "Instytut ludzi" conference'
   adress = 'http://www.instytutludzi.pl' />
 <Project 
   img={CBD_shop}
-  name = 'Sklep CBD'
-  desc= 'Projekt sklepu e-commerce stworzony za pomocą biblioteki React wraz z MaterialUI, wykorzystujący infrastrukturę commercejs'
-  adress = 'https://kup-se-cbd.netlify.app/' />
+  name = 'Windeye'
+  desc= 'Landing page for windeye company wich uses drones to monitor wind turbines'
+  adress = 'https://www.windeye.pl' />
 <Project 
   img={Ace}
   name = 'Acedesign'
-  desc= 'Projekt mojego portfolio graficznego, z wykorzystaniem frameworka vue'
+  desc= 'My art portfolio presented using vue'
   adress = 'https://acedesign.netlify.app' />
 <Project 
   img={digital}
   name = 'Digital Organism'
-  desc= 'Projekt prostej strony internetowej wykonanej z naciskiem na minimalizm'
+  desc= 'Music collective website'
   adress = 'http://www.yth404.pl' />
   
 </section>
