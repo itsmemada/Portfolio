@@ -48,7 +48,7 @@ function Projects(){
   img={digital}
   name = 'Digital Organism'
   desc= 'Music collective website'
-  adress = 'http://www.yth404.pl' />
+  adress = 'https://digitalorganism.netlify.app/' />
   
 </section>
     )
