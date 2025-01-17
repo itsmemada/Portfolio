@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c2848680.css",
+    "main.css": "/Portfolio/static/css/main.e672418f.css",
     "main.js": "/Portfolio/static/js/main.23edf6ea.js",
     "static/js/453.ea41da1c.chunk.js": "/Portfolio/static/js/453.ea41da1c.chunk.js",
     "static/media/digital.png": "/Portfolio/static/media/digital.00095433b10b3d94c5a2.png",
@@ -8,12 +8,12 @@
     "static/media/Instytut_ludzi.png": "/Portfolio/static/media/Instytut_ludzi.7a08185f5f6dc8fce13a.png",
     "static/media/Acedesign.png": "/Portfolio/static/media/Acedesign.d95322a8628ac93b330a.png",
     "index.html": "/Portfolio/index.html",
-    "main.c2848680.css.map": "/Portfolio/static/css/main.c2848680.css.map",
+    "main.e672418f.css.map": "/Portfolio/static/css/main.e672418f.css.map",
     "main.23edf6ea.js.map": "/Portfolio/static/js/main.23edf6ea.js.map",
     "453.ea41da1c.chunk.js.map": "/Portfolio/static/js/453.ea41da1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2848680.css",
+    "static/css/main.e672418f.css",
     "static/js/main.23edf6ea.js"
   ]
 }
