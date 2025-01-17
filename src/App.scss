@@ -1,41 +1,46 @@
 @import "./utilities/variables.scss";
 
 .App {
-  text-align: center;
+    text-align: center;
 }
 .greeting{
-  color: $text-color;
-  text-align: center;
-  font-size:100px;
-  padding-top: 50px;
-  float:left;
-  display:inline;
+    color: $text-color;
+/*  text-align: center; */
+    font-size:100px;
+    padding-top: 50px;
+    float:left;
+    display:inline;
 }
 .dark .name{
-	color: $dark-text-color;
+    color: $dark-text-color;
 }
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: $text-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $text-color;
 }
 .dark .App-header {
-	color:$dark-text-color;
+    color:$dark-text-color;
 
 }
 .blink_me {
-  font-size:100px;
-  animation: blinker 2s linear infinite;
-  float:left;
-  display:inline;
+    font-size:100px;
+    animation: blinker 2s linear infinite;
+    float:left;
+    display:inline;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+@include sm-screen{
+    .greeting{
+	font-size:50px;
+    }
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}

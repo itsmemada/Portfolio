@@ -47,7 +47,7 @@ html, body {
 }
 @include sm-screen{
   .projects, .technologies, .description{
-      height: 1500px;
+      height: 500px;
   }
   .projects, .technologies, .description {
     margin:10%;
