@@ -2,7 +2,7 @@ import React from "react"
 import "./projects.scss"
 import instytut_ludzi from '../../assets/projects/Instytut_ludzi.png';
 import digital from '../../assets/projects/digital.png';
-import Ace from '../../assets/projects/Acedesign.png';
+import nexus from '../../assets/projects/nexus.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
 
 
@@ -40,10 +40,10 @@ function Projects(){
   desc= 'Landing page for windeye company wich uses drones to monitor wind turbines'
   adress = 'https://www.windeye.pl' />
 <Project 
-  img={Ace}
-  name = 'Acedesign'
-  desc= 'My art portfolio presented using vue'
-  adress = 'https://acedesign.netlify.app' />
+img={nexus}
+name = 'Home | Nexus Remote Hub'
+desc= 'Discover the best remote work tools, tips, and strategies for digital nomads and remote professionals'
+adress = 'https://www.nexusremotehub.com/' />
 <Project 
   img={digital}
   name = 'Digital Organism'
