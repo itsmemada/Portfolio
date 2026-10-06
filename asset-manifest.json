@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e672418f.css",
+    "main.js": "/Portfolio/static/js/main.51f61150.js",
+    "static/js/453.ea41da1c.chunk.js": "/Portfolio/static/js/453.ea41da1c.chunk.js",
+    "static/media/digital.png": "/Portfolio/static/media/digital.00095433b10b3d94c5a2.png",
+    "static/media/CBD_shop.png": "/Portfolio/static/media/CBD_shop.b3a69f70b77ef34fba2d.png",
+    "static/media/nexus404-screenshot.png": "/Portfolio/static/media/nexus404-screenshot.da5822ea025e934d9746.png",
+    "static/media/nexus.png": "/Portfolio/static/media/nexus.b0c3a6e1f5af21814a92.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e672418f.css.map": "/Portfolio/static/css/main.e672418f.css.map",
+    "main.51f61150.js.map": "/Portfolio/static/js/main.51f61150.js.map",
+    "453.ea41da1c.chunk.js.map": "/Portfolio/static/js/453.ea41da1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e672418f.css",
+    "static/js/main.51f61150.js"
+  ]
+}
