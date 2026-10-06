@@ -30,10 +30,10 @@ function Projects(){
 <section className='projects'>
 
   <Project 
-  img={instytut_ludzi}
-  name = 'Instytut ludzi'
-  desc= 'Minimal landing page for "Instytut ludzi" conference'
-  adress = 'http://www.instytutludzi.pl' />
+    img={nexus}
+    name = 'Nexus 404'
+    desc= 'Nexus 404 landing page'
+    adress = 'https://www.nexus404.pl/' />
 <Project 
   img={CBD_shop}
   name = 'Windeye'
