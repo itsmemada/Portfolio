@@ -1,6 +1,6 @@
 import React from "react"
 import "./projects.scss"
-import instytut_ludzi from '../../assets/projects/Instytut_ludzi.png';
+
 import digital from '../../assets/projects/digital.png';
 import nexus from '../../assets/projects/nexus.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
