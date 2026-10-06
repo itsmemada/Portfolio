@@ -1,6 +1,6 @@
 import React from "react"
 import "./projects.scss"
-
+import nexus404_img from '../../assets/projects/nexus404-screenshot.png';
 import digital from '../../assets/projects/digital.png';
 import nexus from '../../assets/projects/nexus.png';
 import CBD_shop from '../../assets/projects/CBD_shop.png'
@@ -30,7 +30,7 @@ function Projects(){
 <section className='projects'>
 
   <Project 
-    img={nexus}
+    img={nexus404_img}
     name = 'Nexus 404'
     desc= 'Nexus 404 landing page'
     adress = 'https://www.nexus404.pl/' />
