@@ -54,6 +54,7 @@
     font-size: 180px;
   }
   @include desktop {
-    font-size: 240px;
+    /* 16.67vw = 240 px przy 1440 (wartosc z projektu), rosnie do 300 */
+    font-size: clamp(240px, 16.67vw, 300px);
   }
 }
