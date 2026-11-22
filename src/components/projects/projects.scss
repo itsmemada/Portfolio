@@ -13,12 +13,14 @@
   }
 
   @include desktop {
-    /* Karty maja 75% wielkosci, jaka dawalaby pelna szerokosc.
-       Skalujemy tez odstepy (88 -> 66, 40 -> 30), inaczej same karty
-       wyszlyby 73% i proporcja wzgledem projektu by sie rozjechala. */
-    max-width: 75%;
-    margin-inline: auto;
-    gap: 30px 66px;
+    /* Karty trzymaja 75% wielkosci z projektu (35.5% szerokosci kontenera),
+       ale dostaja wiecej powietrza: w poziomie 8.5% szerokosci,
+       w pionie skalowany 48-88 px. Dzieki stala szerokosc kolumn nie
+       zabiera miejsca kartom — rosnie tylko odstep. */
+    grid-template-columns: repeat(2, 35.5%);
+    justify-content: center;
+    column-gap: 8.5%;
+    row-gap: clamp(48px, 5vw, 88px);
     margin-top: 60px;
   }
 }
