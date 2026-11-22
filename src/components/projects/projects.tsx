@@ -75,7 +75,10 @@ function Project({ img, name, desc, address }: ProjectData) {
         <div className="flip-card__face flip-card__back">
           <h3 className="flip-card__title">{name}</h3>
           <p className="flip-card__desc">{desc}</p>
-          <span className="flip-card__url">{prettyUrl(address)}</span>
+          <span className="flip-card__url">
+            {prettyUrl(address)}
+            <span aria-hidden="true">&rarr;</span>
+          </span>
         </div>
       </div>
     </a>

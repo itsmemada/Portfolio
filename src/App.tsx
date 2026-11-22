@@ -30,10 +30,6 @@ function App() {
               Projects
             </h2>
             <Projects />
-            <p className="section__note">
-              Hover (desktop) / tap (mobile) &rarr; card flips 180&deg; in 0.6 s and
-              shows title, description and link
-            </p>
           </div>
         </section>
 
