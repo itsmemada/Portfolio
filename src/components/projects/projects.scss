@@ -13,8 +13,13 @@
   }
 
   @include desktop {
-    gap: 40px 88px;
-    margin-top: 80px;
+    /* Karty maja 75% wielkosci, jaka dawalaby pelna szerokosc.
+       Skalujemy tez odstepy (88 -> 66, 40 -> 30), inaczej same karty
+       wyszlyby 73% i proporcja wzgledem projektu by sie rozjechala. */
+    max-width: 75%;
+    margin-inline: auto;
+    gap: 30px 66px;
+    margin-top: 60px;
   }
 }
 
@@ -120,9 +125,17 @@
   }
 }
 
+/* Link ma sie wyrozniac z tylu karty: najjasniejszy kolor, podkreslenie
+   i strzalka. Tytul i opis zostaja stonowane, wiec oko lapie link pierwsze. */
 .flip-card__url {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+  padding-bottom: 2px;
+  color: var(--card-url-strong);
   font-size: 10px;
-  color: var(--card-url);
+  border-bottom: 1px solid currentColor;
 
   @include tablet {
     font-size: 12px;

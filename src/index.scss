@@ -28,6 +28,9 @@
   --card-ink: #eeeeee;
   --card-muted: #c9c9c9;
   --card-url: #999999;
+  /* link na karcie ma byc najjasniejszym elementem tylu — na #222222
+     bialy daje 15.9:1, wiec czyta sie jako "tu sie klika" */
+  --card-url-strong: #ffffff;
 
   --switch-off: #cccccc;
   --switch-on: #222222;
@@ -58,6 +61,7 @@ body.dark {
   --card-ink: #eeeeee;
   --card-muted: #c9c9c9;
   --card-url: #a9a9aa;       /* 5.38:1 — #999999 dalby 4.43, za malo */
+  --card-url-strong: #ffffff; /* 12.6:1 na #333333 */
 
   --focus: #eeeeee;
 }
