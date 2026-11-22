@@ -1,14 +1,15 @@
-import './description.scss'
+import './description.scss';
 
-const desc =  <article className='description__content'>
-Hi. it's me, Mada. <br/> Here are some projects I’ve worked on and skills I have aquired.
-</article>
-
-function Description(){
-return(
-<section className='description '>
-  {desc}
-</section>
-)
+function Description() {
+  return (
+    <section className="description">
+      <p className="description__name">Hi. it&rsquo;s me, Mada.</p>
+      <p className="description__claim">I make clean websites.</p>
+      <p className="description__intro">
+        Here are some projects I&rsquo;ve worked on and skills I have acquired.
+      </p>
+    </section>
+  );
 }
- export default Description
+
+export default Description;

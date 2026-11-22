@@ -1,17 +1,28 @@
-import "./footer.scss"
+import "./footer.scss";
 
-function Footer(){
-  return(
-    <footer data-testid="footer-1">
-      <section className='footer__left'>
-      </section>
-      <section className='footer__middle'>
-        <span>2020-2026</span>
-      </section>
-      <section className='footer__right'>
-        <p><a href="https://itsmemada.github.io/Portfolio/">https://itsmemada.github.io/Portfolio/</a></p>
-      </section>
+function Footer() {
+  return (
+    <footer className="footer" data-testid="footer-1">
+      <div className="container footer__inner">
+        <p className="footer__title">Let&rsquo;s work together</p>
+
+        <a className="footer__email" href="mailto:info@nexus404.pl">
+          info@nexus404.pl
+        </a>
+
+        <div className="footer__meta">
+          <a
+            href="https://github.com/itsmemada"
+            target="_blank"
+            rel="noreferrer"
+          >
+            github.com/itsmemada
+          </a>
+          <span>2020&ndash;2026</span>
+        </div>
+      </div>
     </footer>
-  )
+  );
 }
-export default Footer
+
+export default Footer;

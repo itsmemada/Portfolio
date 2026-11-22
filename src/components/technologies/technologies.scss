@@ -1,49 +1,53 @@
 @import "../../utilities/variables.scss";
 
-.tech{
-  margin: 45px;
-  height:180px;
-  width:180px;
-  background-color: $tech-color;
-  border-radius: 50%;
-  display:flex;
+/*
+ * Siatka 9 kafelkow. Proporcje i odstepy zmierzone z projektu:
+ * mobile 166x62 (2 kol.), tablet 208x72 (3 kol.), desktop 400x84 (3 kol.).
+ * Uzywamy 1fr + aspect-ratio, zeby kafelki skalowaly sie z kontenerem.
+ */
+.technologies {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 12px;
+
+  @include tablet {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 24px;
+    margin-top: 32px;
+  }
+
+  @include desktop {
+    gap: 32px 64px;
+    margin-top: 40px;
+  }
+}
+
+.tech {
+  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-}
-.dark .tech{
-  background-color: $dark-tech-color;
-}
-.tech__icon{
-  position: absolute;
-}
-.tech__description{
-  position: relative;
-  top:110px;
-}
-@include xl-screen{
-  .technologies{
-    height:1300px;
+  justify-content: center;
+  min-height: 62px;
+  padding: 8px 12px;
+  background-color: var(--surface);
+  color: var(--surface-ink);
+  font-size: 13px;
+  text-align: center;
+  overflow-wrap: anywhere;
+
+  @include tablet {
+    min-height: 72px;
+    font-size: 20px;
   }
-}
-@include lg-screen{
-  .technologies{
-    height:1500px;
-  }
-}
-@include md-screen{
-  .technologies{
-    height:2300px;
-  }
-}
-@include sm-screen{
-  .technologies{
-    height:2500px;
-  }
-}
-@media screen
-and (min-width: 480px)
-and (max-width: 1200px) {
-  .technologies{
-    height:2500px;
+
+  @include desktop {
+    min-height: 84px;
+    padding: 12px 24px;
+    font-size: 26px;
+    /* w projekcie tekst jest dosuniety do lewej (24px), nie centrowany */
+    justify-content: flex-start;
+    text-align: left;
   }
 }

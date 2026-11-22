@@ -1,19 +1,59 @@
 @import "../../utilities/variables.scss";
 
-.description__content{
-  font-size: 50px;
-  text-align: center;
-  margin:auto;
-  padding: 10%;
+.description {
+  margin-top: 32px;
+
+  @include tablet {
+    margin-top: 56px;
+  }
+  @include desktop {
+    margin-top: 96px;
+  }
 }
 
-@include md-screen {
-    .description__content{
-      font-size: 40px;
-      }
+.description__name {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 24px;
+  line-height: 1.15;
+  color: var(--ink);
+
+  @include tablet {
+    font-size: 34px;
   }
-  @include sm-screen{
-    .description__content{
-    font-size: 30px;
-    }
+  @include desktop {
+    font-size: 44px;
   }
+}
+
+.description__claim {
+  margin-top: 8px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--ink);
+
+  @include tablet {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  @include desktop {
+    margin-top: 14px;
+    font-size: 34px;
+  }
+}
+
+.description__intro {
+  max-width: 42ch;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--muted);
+
+  @include tablet {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  @include desktop {
+    margin-top: 28px;
+    font-size: 20px;
+  }
+}
