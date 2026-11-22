@@ -117,15 +117,19 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1440px;
   margin-inline: auto;
   padding-inline: 24px;
 
   @include tablet {
-    padding-inline: 48px;
+    /* 48px przy 768 px — tyle samo co w projekcie */
+    padding-inline: clamp(48px, 6.25vw, 72px);
   }
+
   @include desktop {
-    padding-inline: 56px;
+    /* 3.9vw = 56 px przy 1440, czyli dokladnie margines z projektu.
+       Powyzej 1440 margines rosnie razem z ekranem, zamiast zostawiac
+       puste pasy po bokach (max-width obcinal uklad do 1440). */
+    padding-inline: clamp(56px, 3.9vw, 96px);
   }
 }
 
@@ -159,7 +163,9 @@ a {
     padding-bottom: 30px;
   }
   @include desktop {
-    font-size: 72px;
+    /* 5vw = 72 px przy 1440 — skaluje sie z szerokoscia, zeby na dużym
+       ekranie naglowek nie wygladal na zgubiony */
+    font-size: clamp(72px, 5vw, 100px);
     padding-bottom: 36px;
   }
 }
