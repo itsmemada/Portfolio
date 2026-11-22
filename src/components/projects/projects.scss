@@ -1,86 +1,133 @@
 @import "../../utilities/variables.scss";
 
-@keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-top: 28px;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 48px;
   }
-  .flip-card {
-    background-color: transparent;
-    perspective: 1000px;
-    margin:5% 5% 0;
-    height:250px;
-    width:40%;
-    border-radius:10%;
-  }  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  .flip-card-front img{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width:100%;
-    height:100%;
-  }
-  .flip-card-back {
-    font-size:11px;
-    background-color: $background-color;
-    color: $text-color;
-    transform: rotateY(180deg);
-    text-align: center;
-    word-wrap: break-word;
-    line-height: 25px;
-  }
-  .flip-card-back a{
-  text-decoration: none;
-  color: $primary-color;
-  }
-  .flip-card-back a:visited{
-    color: $secoundary-color;
-  }
-  .flip-card-back a:hover{
-    color: $text-color;
-  }
-@include md-screen{
-  .flip-card-back{
-    line-height: 20px;
-    padding:20px;
-  }
-  .flip-card{
-    width: 100%;
-  }
-  .projects{
-    height:1200px;
+
+  @include desktop {
+    gap: 40px 88px;
+    margin-top: 80px;
   }
 }
-@include sm-screen {
-  .flip-card{
-    width: 100%;
+
+.flip-card {
+  display: block;
+  /* proporcja karty: 620x320 — obrazki sa przyciete dokladnie w tej proporcji,
+     wiec object-fit: cover nic nie ucina */
+  aspect-ratio: 620 / 320;
+  perspective: 1000px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* stan obrotu: z JS (klasa) albo z klawiatury */
+.flip-card.is-flipped .flip-card__inner,
+.flip-card:focus-visible .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+/* hover tylko tam, gdzie jest prawdziwy kursor */
+@include hover {
+  .flip-card:hover .flip-card__inner {
+    transform: rotateY(180deg);
   }
-  .projects{
-    height:1500px;
+}
+
+@include reduced-motion {
+  .flip-card__inner {
+    transition-duration: 0.01ms;
+  }
+}
+
+.flip-card__face {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-card__front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.flip-card__back {
+  transform: rotateY(180deg);
+  background-color: var(--card-bg);
+  color: var(--card-ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  text-align: center;
+
+  @include tablet {
+    gap: 10px;
+    padding: 20px;
+  }
+  @include desktop {
+    gap: 14px;
+    padding: 28px;
+  }
+}
+
+.flip-card__title {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.1;
+
+  @include tablet {
+    font-size: 24px;
+  }
+  @include desktop {
+    font-size: 30px;
+  }
+}
+
+.flip-card__desc {
+  max-width: 46ch;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--card-muted);
+
+  @include tablet {
+    font-size: 13px;
+  }
+  @include desktop {
+    font-size: 14px;
+  }
+}
+
+.flip-card__url {
+  font-size: 10px;
+  color: var(--card-url);
+
+  @include tablet {
+    font-size: 12px;
+  }
+  @include desktop {
+    font-size: 13px;
   }
 }
